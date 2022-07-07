@@ -1,0 +1,43 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	real MediaSal,MaiorSal=0.0,SomaSal=0.0,salario,SomaFilhos=0.0, contPercen=0.0,percentual
+	inteiro filhos,x,MediaFilhos 
+	
+	para(x=1;x<=20;x++)
+	{
+		escreva("\nDigite seu salario: ")
+		leia(salario)
+
+	     escreva("\nDigite quantos filhos você tem: ")
+	     leia(filhos)
+
+	     se (salario>MaiorSal)
+	         {
+	     	MaiorSal = salario
+	     	
+	     	}
+	     	
+	     se (salario<=100)
+	     {
+	     contPercen++
+	     }
+	     
+          SomaFilhos= SomaFilhos + filhos
+	     SomaSal= SomaSal + salario
+	}
+	
+	percentual=(contPercen*100)/20
+	MediaSal=SomaSal/20
+	MediaFilhos =SomaFilhos/20
+	
+	escreva("\nA media de salario é: ",MediaSal)
+	escreva("\nA media de filhos é: ",MediaFilhos)
+	escreva("\nO maior salario é: R$",MaiorSal)
+	escreva("\nPercentual de pessoas que recebem ate R$100.00 é: ",percentual," %\n")
+	}
+}
+	
+	

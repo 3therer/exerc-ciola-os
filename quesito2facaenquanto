@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num,cont=1,soma=0
+
+		escreva("Entre com um número qualquer: ")
+		leia(num)
+
+		faca
+		{
+			soma = soma+cont
+			cont++
+		}
+		enquanto(cont<=num)
+		escreva("\nSomatório: ",soma)
+	}
+}

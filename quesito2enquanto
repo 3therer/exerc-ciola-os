@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num
+		
+		escreva("Entre com um número: ")
+		leia(num)
+		
+		enquanto(num<=100)
+		{
+			num*=3
+			escreva("\n,",num)
+		}
+	}
+}

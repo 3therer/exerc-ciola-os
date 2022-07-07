@@ -1,0 +1,24 @@
+
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro x=1, somaMedia =0, media, total =0
+
+		enquanto(x>0)
+		{
+			escreva ("\nInforme o valor númerico: ")
+			leia(x)
+
+			se(x>0)
+			{
+				somaMedia = somaMedia + x
+				total = total + 1
+			}
+		}
+		media = somaMedia / total
+		escreva("\nO total do somatório foi de :", somaMedia,"\nA média foi de ",media,"\nE o total de valores lidos foi de ",total)
+	
+	}
+}
